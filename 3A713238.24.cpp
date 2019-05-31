@@ -24,15 +24,15 @@ int main(void)
 
     FILE *pFile;
 
+	printf("-------------------------------------------------\n");
 
-
-	printf("          ¥Î°ßÅª¼Ò¦¡Åª¨úcouse.txt(µ²ºcÅé)        \n");
+	printf("          ç”¨å”¯è®€æ¨¡å¼è®€å–couse.txt(çµæ§‹é«”)        \n");
 
 	printf("-------------------------------------------------\n");
 
-	printf("Åª¨ú¤º®e¬°¡G\n");
+	printf("è®€å–å…§å®¹ç‚ºï¼š\n");
 
-	pFile=fopen("course.txt", "r");
+	pFile=fopen("couse.txt", "r");
 
         
 
@@ -40,7 +40,7 @@ int main(void)
 
     {
 
-        printf("ÀÉ®×¶}±Ò¥¢±Ñ!!\n");
+        printf("æª”æ¡ˆé–‹å•Ÿå¤±æ•—!!\n");
 
         exit(1);
 
@@ -65,5 +65,4 @@ int main(void)
     return 0;
 
 }
-
 
